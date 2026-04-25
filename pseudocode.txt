@@ -1,0 +1,25 @@
+Start
+
+Input number of vertices  
+Input number of edges  
+
+Create adjacency list  
+
+For each edge:  
+  Input node1 and node2  
+  Add node2 to node1 list  
+  Add node1 to node2 list  
+
+Input starting node  
+
+Call DFS function  
+
+DFS(node):  
+  Mark node as visited  
+  Print node  
+
+  For each neighbor:  
+    If not visited:  
+      Call DFS(neighbor)  
+
+End
